@@ -30,8 +30,7 @@ int main() {
     int c, opc;
 
     do {
-        printf("\nCALCULADORA 3.0\n");
-        printf("---------------------\n");
+        printf("\nCALCULADORA \n");
         printf("1. Suma\n");
         printf("2. Resta\n");
         printf("3. Multiplicacion\n");
