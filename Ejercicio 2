@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int arr[5];
+    int i = 0;
+    int calif = 0;
+    float prom;
+
+    for ( i = 0; i < 5; i++)
+    {
+        printf("Introduca la calificacion %i: ",i+1);
+        scanf("%i",&arr[i]);
+    }
+
+    for ( i = 0; i < 5; i++)
+    {
+        calif = calif + arr[i];
+    }
+    prom = calif / 5;
+
+    printf("El promedio es: %0.2f\n", prom);
+    
+    return 0;
+}
